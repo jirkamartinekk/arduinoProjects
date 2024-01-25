@@ -1,0 +1,2 @@
+- Code written using: ArduinoIDE
+- Later edits done in VSCode
