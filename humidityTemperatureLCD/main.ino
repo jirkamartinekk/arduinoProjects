@@ -14,7 +14,7 @@ void setup()
 
 	lcd.print("DHT11 sensor...");
 	lcd.setCursor(0, 1);
-	lcd.print("Vlhkost/Teplota");
+	lcd.print("Humadity/Temperature");
 }
 
 void loop()
@@ -34,12 +34,12 @@ void loop()
 
 	lcd.clear();
 	lcd.setCursor(0, 0);
-	lcd.print("Teplota: ");
+	lcd.print("Temperature: ");
 	lcd.print(T);
 	lcd.print((char)223);
 	lcd.print("C");
 	lcd.setCursor(0, 1);
-	lcd.print("Vlhkost:  ");
+	lcd.print("Humadity:  ");
 	lcd.print(V);
 	lcd.print("%");
 }
